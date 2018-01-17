@@ -1,0 +1,14 @@
+mixin popup
+	section.popup-section
+		div.container-popup
+			div.container-popup__top
+				h3.container-popup__top__title это совершенно  бесплатно
+				i.fa.fa-times.fa-close(aria-hidden="true")
+				div.container-popup__top__block
+					img.popup-block-img(src='img/section-intro/webinars/webinar1.png')
+					div.popup-block-description Вебинар “Как правильно посчитать бюджеты для маркетинга ICO” находится в закрытом доступе, чтобы просмотреть его бесплатно - укажите свои контактные данные и мы вышлем доступ к видео Вам на почту.
+			form#form.form
+				input#name.form__input.form__input--name(type='text', placeholder='ФИО')
+				input#email.form__input.form__input--email(type='email', placeholder='Контактный E-mail')
+				input#phone.form__input.form__input--phone(type='phone', placeholder='Номер телефона')
+				input#submit.form__input.form__input--button(type='submit', value='Получить видео')

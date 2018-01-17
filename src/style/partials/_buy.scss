@@ -1,0 +1,26 @@
+
+.container-buy{
+  position:relative;
+}
+.buy-section{
+  padding-top: 170px;
+  margin-bottom: 40px;
+  @media(max-width:998px){
+    padding: 60px;
+    margin-bottom: 0;
+  }
+}
+.container-buy__button {
+  text-align: center;
+  &__link {
+    font-family: $mpb;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 15px;
+    width: 280px;
+    @media(max-width:768px){
+      width: auto;
+      font-size: 15px;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+$main-font: "PFCentroSansPro-Reg", sans-serif;
+$title-font: "PFCCentroSansPro";
+$sec-font: "Lato", Helvetica, sans-serif;
+$logo-font: "Nazare", Helvetica, sans-serif;
+
+$main-color: #000;
+$sec-color: #ffda44;
+$bg-gradient: linear-gradient(to top, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, 0.1) 100%);
+// brand colors
+$red-primary: #ff0000;
+$red-secondary: #be2021;
+$orange: #fda625;
+$grey: #7a7c7c;
+//Width variables
+
+$container-width: 1200px;
+$laptop-width: 1280px;
+$desktop-width: 1024px;
+$desktop-min-width: 998px;
+$tablet-width: 768px;
+$mobile-big-width: 480px;
+$mobile-small-width: 320px;
+
+$small-media: 'screen and (max-width: $mobile-small-width)';
+$medium-media: 'screen and (max-width: $mobile-big-width)';
+$tablet-media: 'screen and (max-width: $tablet-width)';
+$desktop-media: 'screen and (max-width: $desktop-width)';
+$container-media: 'screen and (max-width: $container-width)';
+
+//variable for base font-family
+$aa-bold: "AAvaneBold";
+$mpb: "mpb";
+$mpr: "mpr";
+
+
+.container{
+  width: $container-width;
+  margin: 0 auto;
+}
+@media(max-width:1200px){
+  .container{
+    width: 90%;
+  }
+  .container-intro__min {
+    width: 80%;
+    margin: 0 auto 0;
+    padding-top: 100px;
+  }
+}
+
+html {
+  overflow-x: hidden;
+}
+body{
+  overflow-x: hidden;
+}
