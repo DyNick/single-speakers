@@ -32,7 +32,7 @@ $(function() {
 
         $(document).delegate('#'+this.id, 'click', function() {
             // Create an iFrame with autoplay set to true
-            var iframe_url = "https://www.youtube.com/embed/" + this.id + "?autoplay=1&autohide=1";
+            var iframe_url = "https://www.youtube.com/embed/" + this.id + "?autoplay=1&autohide=1&list=0&rel=0";
             if ($(this).data('params')) iframe_url+='&'+$(this).data('params');
 
             // The height and width of the iFrame should be the same as parent

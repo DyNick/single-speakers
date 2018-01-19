@@ -6,7 +6,7 @@ footer{
   align-items: center;
   justify-content: flex-start;
   width: 800px;
-  margin: 100px auto 0;
+  margin:0px auto 0;
   height: 150px;
   @media(max-width:1200px){
     width: 100%;
@@ -51,5 +51,52 @@ footer{
     height: 50px;
     font-size: 24px;
     line-height: 50px;
+  }
+}
+
+
+
+/*===============*/
+
+.popup-link {
+  position: relative;
+  display: block;
+}
+.container-buy__button__link{
+  display: inline;
+}
+.fa__bg {
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.container-footer{
+  height: 125px;
+}
+.logo {
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  margin-left: 5px;
+}
+.back{
+  width: 27px;
+  display: inline-block;
+  margin-left: 5px;
+}
+.back img{
+  width:100%;
+}
+.container-buy__button__link{
+  padding: 10px 15px;
+}
+@media (max-width: 480px){
+  .container-footer {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px 0;
   }
 }
